@@ -1,0 +1,3 @@
+﻿  obstacles.cpp
+C:\Users\crist\source\repos\Projecttt\Projecttt\obstacles.cpp(21,28): warning C4244: 'argomento': conversione da 'time_t' a 'unsigned int'. Possibile perdita di dati.
+  Projecttt.vcxproj -> C:\Users\crist\source\repos\Projecttt\Debug\Projecttt.exe

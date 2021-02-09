@@ -59,31 +59,22 @@ void console::message2(){
 	system("cls");
 	setWindow();
 }
-
 void console::countdown() {
-	system("cls");
 	setWindow();
 	gotoconsole(40,10);
 	cout << "3";
 	Sleep(1000);
-	system("cls");
-	setWindow();
-	gotoconsole(40,10);
+	gotoconsole(40, 10);
 	cout << "2";
 	Sleep(1000);
-	system("cls");
-	setWindow();
 	gotoconsole(40,10);
 	cout << "1";
 	Sleep(1000);
-	system("cls");
-	setWindow();
-	gotoconsole(40,10);
+	gotoconsole(38,10);
 	cout << "VIA!";
-	setWindow();
 	Sleep(500);
-	system("cls");
-	setWindow();
+	gotoconsole(38, 10);
+	cout << "    ";
 }
 
 void console::ShowConsoleCursor(bool flag) {
